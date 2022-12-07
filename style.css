@@ -1,0 +1,296 @@
+/*ATRIBUTOS GLOBAIS*/
+*{
+  padding:0;
+  margin:0;
+  border: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+}
+  
+a{
+  font-size:20px;
+  color: rgb(15, 20, 25);
+  font-weight:400px;
+  text-decoration:none
+}
+  
+  
+  
+  /*NAVEGAÇAO*/
+
+.navegacao{
+  width: 316px;
+  height:100%;
+  background: #fff;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+ 
+  
+}
+
+.menu-nav {
+  width: 100%;
+  height: 100%;
+  margin-top: 7px;
+  margin-left: 44px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+ 
+}
+
+
+.pagina-inicial{
+  cursor: pointer;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 50px;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 100px;
+  position: fixed;
+  height: 48px;
+  width: 200px;
+  padding: 10px;
+  
+}
+.menu-nav .pagina-inicial a{
+  margin-left: 15px;
+  
+ 
+}
+.pagina-inicial:hover{
+  background: #eceded;
+}
+
+.menu-nav .Explorar{
+  cursor: pointer;
+  margin-top: 100px;
+  margin-left: 33px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 100px;
+  position: fixed;
+  width: 160px;
+  height: 48px;
+  padding: 15px;
+}
+.menu-nav .Explorar a{
+  margin-left: 22px;
+}
+.menu-nav .Explorar:hover{
+background: #eceded;
+}
+.menu-nav .notificaçoes{
+  cursor: pointer;
+  margin-top: 150px;
+  margin-left: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  width: 200px;
+  height: 48px;
+  border-radius: 100px;
+  padding: 10px;
+}
+.menu-nav .notificaçoes a{
+  margin-left: 20px;
+}
+.menu-nav .notificaçoes:hover{
+  background: #eceded;
+
+}
+.menu-nav .mensagens{
+  cursor: pointer;
+  margin-top: 200px;
+  margin-left: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  border-radius: 100px;
+  width: 200px;
+  height: 48px; 
+  padding: 10px;
+  
+}
+.menu-nav .mensagens a{
+  margin-left: 25px;
+}
+.menu-nav .mensagens:hover{
+  background: #eceded;
+}
+.menu-nav .itens-salvos{
+  cursor: pointer;
+  margin-top: 248px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  border-radius: 100px;
+  width: 200px;
+  height: 48px;
+  padding: 10px;
+ 
+}
+.menu-nav .itens-salvos a{
+  margin-left: 18px;
+}
+.menu-nav .itens-salvos:hover{
+  background: #eceded;
+}
+.menu-nav .listas{
+  cursor: pointer;
+  margin-top: 295px;
+  margin-left: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  border-radius: 100px;
+  width: 150px;
+  height: 48px;
+  padding: 10px;
+}
+.menu-nav .listas a{
+  margin-left: 22px;
+}
+.menu-nav .listas:hover{
+  background: #eceded;
+}
+.menu-nav .perfil{
+  cursor: pointer;
+  margin-top: 345px;
+  margin-left: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  border-radius: 100px;
+  width: 150px;
+  height: 48px;
+  padding: 10px;
+}
+.menu-nav .perfil a{
+  margin-left: 23px;
+}
+.menu-nav .perfil:hover{
+  background: #eceded;
+}
+.menu-nav .mais{
+  cursor: pointer;
+  margin-top: 395px;
+  margin-left: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  border-radius: 100px;
+  width: 130px;
+  height: 48px;
+  padding: 10px;
+}
+.menu-nav .mais a{
+  margin-left:20px ;
+}
+.menu-nav .mais:hover{
+  background: #eceded;
+}
+.perfil-nav{
+  cursor: pointer;
+font-weight: 200;
+position: fixed;
+margin-top: 540px;
+margin-left: 40px;
+border-radius: 100px;
+width: 200px;
+height: 60px;
+padding:10px 20px;
+}
+.perfil-nav #arroba-perfil{
+  color: #536471;
+}
+.perfil-nav:hover{
+  background: #eceded;
+}
+.perfil-nav .trespontos-perfil{
+  margin-left: 60px;
+  
+}
+/*BOTAO*/
+.tweetar{
+  cursor: pointer;
+  position:fixed;
+  margin-top: 450px;
+  margin-left:30px ;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 100px;
+  width: 220px;
+  height: 50px;
+  background: #1d9bf0;
+  color: #fff;
+}
+.tweetar:hover{
+background: #2094e1;
+}
+/*IMAGENS*/
+
+.logo-twitter{
+  height: 28px;
+  width: 28px;
+  position: fixed;
+}
+.casa-passarinho{
+  height: 30px;
+  width: 35px;
+}
+.hashtag{
+  height: 20px;
+  width: 20px;
+}
+
+.logo-notificaçoes{
+  height: 30px;
+  width: 30px;
+}
+.logo-mensagens{
+  height: 23px;
+  width: 21px;
+}
+.logo-itensalvos{
+ width: 34px;
+ height: 35px;
+}
+.logo-listas{
+  width: 25px;
+  height: 23px;
+ }
+ .logo-perfil{
+  width: 22px;
+  height: 22px;
+ }
+ .logo-mais{
+  width: 25px;
+  height: 22px;
+ }
+ .cadeado{
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+ }
+ .trespontos-perfil{
+  width: 10px;
+  height: 10px;
+  
+ }
